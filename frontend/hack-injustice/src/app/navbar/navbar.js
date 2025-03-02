@@ -21,15 +21,6 @@ export default async function Navbar({ className, ...props }) {
           <Link href="/feedback" className="text-base font-medium transition-colors hover:text-primary">
             Feedback
           </Link>
-          <Link href="/teams" className="text-base font-medium transition-colors hover:text-primary">
-            Teams
-          </Link>
-          <Link href="/bases" className="text-base font-medium transition-colors hover:text-primary">
-            Bases
-          </Link>
-          <Link href="/dashboard" className="text-base font-medium transition-colors hover:text-primary">
-            Dashboard
-          </Link>
         </>
       )}
     </nav>
